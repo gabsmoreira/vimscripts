@@ -5,7 +5,7 @@ My vim config
 
 Clone Vundle: 
 
-'''bash
+'''python
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 '''
 
