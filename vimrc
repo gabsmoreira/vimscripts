@@ -16,6 +16,11 @@ let &t_EI.="\e[1 q"
 "need this to install Vundle
 Plugin 'gmarik/Vundle.vim'
 
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+
 Bundle 'Valloric/YouCompleteMe'
 
  " ---- Plugins ----
