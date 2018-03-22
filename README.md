@@ -17,6 +17,6 @@ cp ~/dev/scripts/vim/vimrc ~/.vimrc
 
 Install plugins: 
 
-```bash
+```vim
 vim :PluginInstall
 ```
