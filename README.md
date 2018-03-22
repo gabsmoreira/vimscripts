@@ -15,8 +15,8 @@ Copy the script:
 cp ~/dev/scripts/vim/vimrc ~/.vimrc
 ```
 
-Install plugins: 
+Install plugins on vim: 
 
 ```vim
-vim :PluginInstall
+:PluginInstall
 ```
