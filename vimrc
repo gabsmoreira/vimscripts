@@ -2,19 +2,19 @@ colorscheme turtles
 syntax on
 set tabstop=2
 "Configure Vundle
- set nocompatible
- "filetype off
+set nocompatible
+"filetype off
 
- "Vundle config
- set rtp+=~/.vim/bundle/Vundle.vim
- call vundle#begin()
+"Vundle config
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
  
 " When in input mode, cursor changes to vertical bar
 let &t_SI.="\e[5 q"
 let &t_EI.="\e[1 q"
 
- "need this to install Vundle
- Plugin 'gmarik/Vundle.vim'
+"need this to install Vundle
+Plugin 'gmarik/Vundle.vim'
 
 Bundle 'Valloric/YouCompleteMe'
 
