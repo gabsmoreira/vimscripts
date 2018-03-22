@@ -4,16 +4,16 @@ My vim config
 ## Running the script
 
 Clone Vundle: 
-'''bash
+'''sh
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 '''
 
 Copy the script:
-'''bash
+'''sh
 cp ~/dev/scripts/vim/vimrc ~/.vimrc
 '''
 
 Install plugins: 
-'''bash
+'''sh
 vim :PluginInstall
 '''
